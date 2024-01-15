@@ -1,1 +1,1 @@
-console.log("Hello via Bun!");
+const { app, browserWindow } = require('electron');

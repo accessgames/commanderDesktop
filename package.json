@@ -4,9 +4,16 @@
   "description": "Commander proxy was never aired on the desktop, for a while.",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "electron": "^28.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accessgames/commanderDesktop.git"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
